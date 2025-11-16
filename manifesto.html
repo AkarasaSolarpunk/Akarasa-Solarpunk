@@ -133,6 +133,15 @@
       transition: 0.4s ease;
       text-shadow: 2px 2px 0 #baffda, 4px 4px 10px rgba(0,255,150,0.7), 0 0 25px rgba(0,255,150,0.9);
     }
+      .slide-left { opacity: 0; transform: translateX(-60px); animation: slideLeft 1s ease-out forwards; }
+    .slide-right { opacity: 0; transform: translateX(60px); animation: slideRight 1s ease-out forwards; }
+
+    @keyframes slideLeft {
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideRight {
+      to { opacity: 1; transform: translateX(0); }
+    }
   </style>
 </head>
 <body>
@@ -142,22 +151,19 @@
   </header>
 
   <div class="container">
-    <div class="section">
-      <h2>1. Hidup Selaras dengan Alam</h2>
-      <p>Kami percaya masa depan Indonesia dibangun bukan dengan dominasi atas alam, tapi dengan harmoni dan kerja sama. Alam adalah mitra, bukan korban.</p>
-    </div>
+    <div class="section slide-left">
 
-    <div class="section">
+    <div class="section slide-right">
       <h2>2. Teknologi yang Memerdekakan</h2>
       <p>Energi bersih, otomasi bijak, dan teknologi terbuka adalah alat untuk kemandirian rakyat—not alat penindasan baru.</p>
     </div>
 
-    <div class="section">
+    <div class="section slide-right">
       <h2>3. Komunitas di Pusat Masa Depan</h2>
       <p>Masa depan dibangun dari desa, kampung, dan kota yang kuat. Gotong royong adalah teknologi tertua sekaligus paling ampuh.</p>
     </div>
 
-    <div class="section">
+    <div class="section slide-right">
       <h2>4. Estetika Kehidupan yang Indah</h2>
       <p>Solarpunk bukan hanya solusi teknis—ia adalah imajinasi tentang dunia yang indah, manusiawi, berwarna, dan penuh harapan.</p>
     </div>
