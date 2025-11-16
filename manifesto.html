@@ -45,6 +45,29 @@
       color: #0d4b2e;
       font-weight: bold;
     }
+      /* Animasi gradien futuristik */
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Efek fade-in lembut pada setiap section */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    body {
+      background: linear-gradient(160deg, #e3ffe8, #d9f4ff, #c4ffd7);
+      background-size: 200% 200%;
+      animation: gradientShift 12s ease infinite;
+    }
+
+    .section {
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
   </style>
 </head>
 <body>
@@ -55,12 +78,12 @@
   <div class="container">
     <div class="section">
       <h2>1. Hidup Selaras dengan Alam</h2>
-      <p>Kami percaya masa depan Indonesia dibangun bukan dengan dominasi atas alam, tetapi dengan harmoni dan kerja sama. Alam adalah mitra, bukan korban.</p>
+      <p>Kami percaya masa depan Indonesia dibangun bukan dengan dominasi atas alam, tapi dengan harmoni dan kerja sama. Alam adalah mitra, bukan korban.</p>
     </div>
 
     <div class="section">
       <h2>2. Teknologi yang Memerdekakan</h2>
-      <p>Energi bersih, otomasi bijak, dan teknologi terbuka adalah alat untuk kemandirian rakyat — bukan alat penindasan baru.</p>
+      <p>Energi bersih, otomasi bijak, dan teknologi terbuka adalah alat untuk kemandirian rakyat—not alat penindasan baru.</p>
     </div>
 
     <div class="section">
@@ -70,7 +93,7 @@
 
     <div class="section">
       <h2>4. Estetika Kehidupan yang Indah</h2>
-      <p>Solarpunk bukan hanya solusi teknis — ini adalah imajinasi tentang dunia yang indah, manusiawi, berwarna, dan penuh harapan.</p>
+      <p>Solarpunk bukan hanya solusi teknis—ia adalah imajinasi tentang dunia yang indah, manusiawi, berwarna, dan penuh harapan.</p>
     </div>
 
     <a class="back" href="index.html">← Kembali ke halaman utama</a>
