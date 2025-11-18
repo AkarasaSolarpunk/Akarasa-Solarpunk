@@ -1,123 +1,152 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak – Akarasa Solarpunk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak — Akarasa Solarpunk</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #fefefe;
-            margin: 0;
-            padding: 40px;
-            color: #222;
-        }
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8fff4;
+        color: #333;
+    }
 
-        h1 {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
+    header {
+        text-align: center;
+        padding: 40px 20px;
+    }
 
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        color: #1b4d2f;
+    }
 
-        ul {
-            list-style: none;
-            padding-left: 0;
-            font-size: 17px;
-        }
+    header p {
+        font-size: 16px;
+        color: #4b6b55;
+    }
 
-        ul li {
-            margin-bottom: 10px;
-        }
+    .section {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        line-height: 1.7;
+    }
 
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
+    ul {
+        padding-left: 20px;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a {
+        color: #1b6e3a;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
+    a:hover {
+        text-decoration: underline;
+    }
 
-        /* tombol kembali */
-        .back {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 16px;
-            background: #000;
-            color: #fff;
-            border-radius: 6px;
-            text-decoration: none;
-        }
+    /* FUTURISTIC CARD STYLE */
+    .contact-card {
+        margin-top: 25px;
+        padding: 20px;
+        border-radius: 12px;
+        background: #ffffffcc;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+        border-left: 5px solid #1b6e3a;
+    }
 
-        .back:hover {
-            background: #333;
-        }
+    /* FOOTER */
+    footer {
+        margin-top: 60px;
+        padding: 20px 0;
+        border-top: 1px solid #ccc;
+        text-align: center;
+        color: #444;
+    }
 
-        /* footer nav bar */
-        footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #ccc;
-            text-align: center;
-        }
-
-        footer {
-            margin-top: 60px;
-            padding: 20px 0;
-            border-top: 1px solid #ccc;
-            text-align: center;
-            color: #444;
-        }
-
-        footer {
-            margin: 0 12px;
+    .footer-links a {
+        margin: 0 12px;
         color: #444;
         text-decoration: none;
         font-size: 15px;
-        }
+    }
 
-        footer:hover {
-            text-decoration: underline;
-        }
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
 
-        footer {
-            font-size: 13px;
-            margin-top: 10px;
-            color: #777;
-        }
+    .footer-copy {
+        font-size: 13px;
+        margin-top: 10px;
+        color: #777;
+    }
 
-        }
-    </style>
+    /* BACK BUTTON */
+    .back-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #1b6e3a;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+
+    .back-btn:hover {
+        background: #155a2f;
+    }
+
+</style>
 </head>
 
 <body>
 
-    <h1>Kontak Akarasa Solarpunk</h1>
-    <p>Jika kamu ingin bertanya, memberi saran, atau berdiskusi tentang gerakan solarpunk Akarasa, hubungi kami melalui:</p>
+<header>
+    <h1>Kontak Kami</h1>
+    <p>Hubungi Akarasa Solarpunk melalui kanal resmi berikut.</p>
+</header>
 
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:akarasa2022@gmail.com">akarasa2022@gmail.com</a></li>
-        <li><strong>Instagram:</strong> <a href="https://instagram.com/aka.r.asa">@aka.r.asa</a></li>
-        <li><strong>Telegram:</strong> <a href="https://t.me/AkarasaSolarpunk">@AkarasaSolarpunk</a></li>
-    </ul>
+<div class="section">
 
-    <a class="back" href="index.html">← Kembali ke halaman utama</a>
+    <div class="contact-card">
+        <h2>Email</h2>
+        <p>
+            <a href="mailto:akarasa2022@gmail.com">akarasa2022@gmail.com</a>
+        </p>
+    </div>
 
-    <footer>
+    <div class="contact-card">
+        <h2>Instagram</h2>
+        <p>
+            <a href="https://instagram.com/aka.r.asa">@aka.r.asa</a>
+        </p>
+    </div>
 
-  <div class="footer-links">
-    <a href="manifesto.html">Manifesto</a>
-    <a href="about.html">Tentang Kami</a>
-    <a href="contact.html">Kontak</a>
-    <a href="blog.html">Blog</a>
-    </footer>
+    <div class="contact-card">
+        <h2>Telegram</h2>
+        <p>
+            <a href="https://t.me/AkarasaSolarpunk">@AkarasaSolarpunk</a>
+        </p>
+    </div>
+
+    <a href="/index.html" class="back-btn">← Kembali ke Beranda</a>
+
+</div>
+
+<footer>
+    <div class="footer-links">
+        <a href="/manifesto.html">Manifesto</a>
+        <a href="/about.html">Tentang Kami</a>
+        <a href="/contact.html">Kontak</a>
+    </div>
+    <p class="footer-copy">© 2025 Akarasa Solarpunk</p>
+</footer>
 
 </body>
 </html>
